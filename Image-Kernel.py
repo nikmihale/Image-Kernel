@@ -31,8 +31,8 @@ for i in range(Kheight):
 if sum == 0 :
 	sum = 1
 
-for i in range(height):
-	for j in range(width):
+for i in range(width):
+	for j in range(height):
 		Sy = 0
 		for k in range(Kheight):
 			for l in range(Kwidth):
