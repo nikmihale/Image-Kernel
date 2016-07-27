@@ -35,8 +35,8 @@ for i in range(width):
 		Sy = 0
 		for k in range(Kheight):
 			for l in range(Kwidth):
-				pixelposX = i + k - ( Kwidth / 2 )
-				pixelposY = j + l - ( Kheight / 2 )
+				pixelposX = i + k - ( Kheight / 2 )
+				pixelposY = j + l - ( Kwidth / 2 )
 				if pixelposX < 0 or pixelposX >= width or pixelposY < 0 or pixelposY >= height :
 					continue				
 				Sy += pix[pixelposX, pixelposY] * float( ker[k][l] ) / sum
